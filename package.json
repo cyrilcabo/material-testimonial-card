@@ -1,6 +1,6 @@
 {
   "name": "material-testimonial-card",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A testimonial card component for React with Material-UI",
   "main": "./lib/index.js",
   "scripts": {
@@ -35,7 +35,15 @@
     "webpack": "^4.5.0",
     "webpack-cli": "^3.2.1"
   },
-  "author": "Cyril Cabo",
+  "author": {
+    "name": "Cyril Cabo",
+    "url": "https://alphadevop.co"
+  },
+  "homepage": "https://github.com/cyrilcabo/material-testimonial-card",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cyrilcabo/material-testimonial-card"
+  },
   "license": "MIT",
   "dependencies": {}
 }
