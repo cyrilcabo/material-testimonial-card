@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 //Material components
 import Grid from '@material-ui/core/Grid';
@@ -182,6 +183,14 @@ const TestimonialCard = (props) => {
 			</Grid>
 		</Grid>
 	);
+}
+
+TestimonialCard.propTypes = {
+	name: PropTypes.string.isRequired,
+	image: PropTypes.string,
+	content: PropTypes.string.isRequired,
+	project: PropTypes.string.isRequired,
+	className: PropTypes.string
 }
 
 export default TestimonialCard;
