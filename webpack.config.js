@@ -21,6 +21,7 @@ module.exports = {
             commonjs: 'react-dom',
             amd: 'react-dom'
         },
+        'prop-types': 'prop-types',
         '@material-ui/core': '@material-ui/core'
     },
     module: {
