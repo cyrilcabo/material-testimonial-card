@@ -28,9 +28,24 @@ You can refer to the following css classNames to customize each part of the card
 
 For more info, you can check the github repo.
 
+## Sample Usage
+```JSX
+import React from 'react';
+import TestimonialCard from 'material-testimonial-card';
+
+const Component = () => {
+	return <TestimonialCard
+		name={"John Smith"}
+		image={"/path/to/image.jpg"}
+		content={"Wow! This testimonial card is so amazing! I would like to use it in my project!"}
+		project={"Testimonial card"}
+	/>
+}
+
+export default Component;
+```
+
 ## Demo
 
 ![Image sample](https://s3.us-east-2.amazonaws.com/alphadev-utils/git-images/material-testimonial-card/demo1.png)
-
-Sample of the component
 
